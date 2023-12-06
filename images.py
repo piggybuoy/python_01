@@ -1,0 +1,15 @@
+from PIL import Image, ImageFilter
+# img = Image.open('./image_depot/rockMunchkin.jpg')
+# filtered_img = img.filter(ImageFilter.BLUR)
+# converted_img = img.convert('L')
+#print(img.format)
+#print(img.size)
+#filtered_img.save('./image_depot/blur.png', 'png')
+#converted_img.save('./image_depot/grey.png', 'png')
+#filtered_img.show()
+
+img = Image.open('./image_depot/olliestrat.jpg')
+img.thumbnail((400, 400))
+img.rotate(90)
+img.save('./image_depot/thumbnail3.jpg')
+print(img.size)
