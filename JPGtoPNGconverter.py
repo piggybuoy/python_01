@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 #grab 1st & 2nd args
-
+print('No grabbing!!!')
 
 #check if new\ exists, if not create it
 
