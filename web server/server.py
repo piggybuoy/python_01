@@ -24,3 +24,11 @@ def about():
 @app.route('/contact.html')
 def contact():
     return render_template('contact.html')
+
+@app.route('/work.html')
+def work001():
+    return render_template('work.html')
+
+@app.route('/work2.html')
+def work002():
+    return render_template('work2.html')
